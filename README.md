@@ -10,7 +10,6 @@ This template provides a minimal setup for building a React application using Vi
 - **Vite**: Ultra-fast development and build tooling.
 - **React**: Latest version for building modern UI components.
 - **Tailwind CSS**: Utility-first CSS framework for building custom designs without leaving your HTML.
-- **ESLint**: A pluggable linter tool for ensuring code quality.
 - **Redux Toolkit**: State management with slices and reducers.
 - **React Hot Toast**: For elegant notifications in your application.
 - **React Router DOM**: Declarative routing for React.
@@ -28,9 +27,9 @@ This template provides a minimal setup for building a React application using Vi
    ```
 
 2. When prompted, choose the following:
-   - Project name: `paste`
+   - Project name: `NoteSave`
    - Framework: `React`
-   - Variant: `JavaScript` or `TypeScript` as per your preference.
+   - Variant: `JavaScript`.
 
 3. Navigate into the project directory:
 
@@ -104,9 +103,6 @@ This command will launch the development server, and your project will be availa
 
 - **`npm run dev`**: Starts the Vite development server with HMR.
 - **`npm run build`**: Builds the project for production.
-- **`npm run preview`**: Serves the production build for preview.
-- **`npm run lint`**: Lints your code using ESLint.
-
 ---
 
 ## Packages Used
@@ -115,7 +111,6 @@ Here is a list of all the important packages used in this project:
 
 ### Dependencies
 - **@reduxjs/toolkit**: A powerful library for managing application state with Redux.
-- **lucide-react**: Icon set for React that provides various UI icons.
 - **react**: The core React library for building user interfaces.
 - **react-dom**: DOM bindings for React.
 - **react-hot-toast**: Notifications system for React.
